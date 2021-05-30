@@ -434,6 +434,8 @@ header nav .form i {
 
 .portfolio .shuffle li {
   padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .portfolio .shuffle li.active {
@@ -450,6 +452,14 @@ header nav .form i {
 .portfolio .imgs-container .box {
   position: relative;
   overflow: hidden;
+  transition: 0.5s;
+  display: none;
+  opacity: 0;
+}
+
+.portfolio .imgs-container .box.show {
+  display: block;
+  opacity: 1;
 }
 
 .portfolio .imgs-container .box:hover .caption {
