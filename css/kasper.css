@@ -212,6 +212,7 @@ header nav .form i {
   background-size: cover;
   background-color: #1f2021;
   position: relative;
+  transition: 1s;
 }
 
 .landing .overlay {
@@ -275,6 +276,14 @@ header nav .form i {
   }
 }
 
+.landing .fa-angle-left,
+.landing .fa-angle-right {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
 .landing .fa-angle-left {
   left: 30px;
 }
@@ -298,6 +307,11 @@ header nav .form i {
   height: 20px;
   border: 1px solid white;
   border-radius: 50%;
+  transition: 0.5s;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
 }
 
 .landing .bullets li.active {
@@ -436,6 +450,9 @@ header nav .form i {
   padding: 10px;
   cursor: pointer;
   transition: 0.3s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 .portfolio .shuffle li.active {
